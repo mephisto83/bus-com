@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+      /* Basic Options */
+      "target": "ES2020",                          // Set the JavaScript language version 
+      "module": "commonjs",    
+      "lib": ["ES2020", "DOM"],                        // Include definitions for the specified ECMAScript library
+      "outDir": "dist",                            // Redirect output structure to the 'dist' directory
+      "rootDir": "./src",                             // Base directory to resolve non-relative module names
+      "strict": false,                              // Enable all strict type-checking options
+      "moduleResolution": "node",                  // Use Node.js style resolution
+      "esModuleInterop": true,                     // Enables emit interoperability between CommonJS and ES Modules
+      "resolveJsonModule": true,                   // Import .json files
+      "sourceMap": true,                           // Generate .map files
+      "forceConsistentCasingInFileNames": true,    // Disallow inconsistently-cased references to the same file
+      "noImplicitAny": true,                       // Error on expressions and declarations with an implied 'any' type
+      "noUnusedLocals": true,                      // Report errors on unused locals
+      "noUnusedParameters": true,                  // Report errors on unused parameters
+      "noImplicitReturns": true,                   // Report error when not all code paths in function return a value
+      "noFallthroughCasesInSwitch": true           // Report errors for fallthrough cases in switch statements
+    },
+    "include": [
+      "./**/*.ts"
+    ],
+    "exclude": [
+      "node_modules",
+      "dist"
+    ]
+  }
+  
